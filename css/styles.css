@@ -184,7 +184,8 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+margin-right: auto;
+    margin-left: auto;
 }
 .hero-container {
  /* background: #2E2F42; */
@@ -427,6 +428,8 @@ row-gap: 48px;
 }
 .directions-item {
 width: calc((100% - 48px) / 3);
+}
+.directions-item-jpg {
 display: block;
 transition: box-shadow var(--transition);
 transform: translateY(0%);
